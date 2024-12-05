@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:HypertrophyApp.Pages"
+             x:Class="HypertrophyApp.MainPage"
+             Title="Hypertrophy App">
+    <Grid RowDefinitions="*,Auto">
+        <!-- Glavna Vsebina -->
+        <ContentView x:Name="MainContent" />
+
+        <!-- Spodnji Navigacijski Meni -->
+        <ScrollView Orientation="Horizontal" Grid.Row="1" BackgroundColor="{StaticResource PrimaryColor}" HorizontalScrollBarVisibility="Never">
+            <HorizontalStackLayout Spacing="30" Padding="10" HorizontalOptions="Center">
+                <!-- 1. CustomExercisePage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="exercise.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Exercises" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnExercisesClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 2. ExerciseLoggingPage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="logbook.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Logging" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnLoggingClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 3. FeedbackPage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="feedback.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Feedback" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnFeedbackClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 4. MesocycleSummaryPage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="summary.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Summary" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnSummaryClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 5. MuscleGroupStatsPage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="muscle.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Muscle Stats" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnMuscleStatsClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 6. PhasePage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="phase.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Phase" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnPhaseClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 7. PhaseTrackingPage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="tracking.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Tracking" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTrackingClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 8. PlanMesocyclePage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="planner.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Planner" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnPlannerClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 9. RegainingMusclePage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="recovery.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Recovery" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnRecoveryClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 10. ScheduleOverviewPage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="schedule.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Schedule" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnScheduleClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 11. StartDatePage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="start.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Start" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnStartClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 12. WeekPlanPage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="weekly.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Weekly Plan" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnWeeklyPlanClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 13. WeighInTimesPage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="scale.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Weigh-In" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnWeighInClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- 14. WorkoutSplitPage -->
+                <Frame BackgroundColor="Transparent" HasShadow="False" Padding="0">
+                    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="split.png" WidthRequest="24" HeightRequest="24" />
+                        <Label Text="Workout" FontSize="12" TextColor="White" HorizontalOptions="Center" />
+                    </VerticalStackLayout>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnWorkoutSplitClicked" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+
+                <!-- Dodajte več navigacijskih elementov po potrebi -->
+            </HorizontalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

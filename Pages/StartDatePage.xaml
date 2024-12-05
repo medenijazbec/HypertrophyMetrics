@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:HypertrophyApp.ViewModels"
+             x:Class="HypertrophyApp.Pages.StartDatePage"
+             Title="Choose Start Date">
+    <ContentPage.BindingContext>
+        <viewmodels:StartDateViewModel />
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15" BackgroundColor="{StaticResource BackgroundColor}">
+            <Label Text="Choose Your Start Date"
+                   Style="{StaticResource HeaderLabel}" />
+
+            <!-- Diet Start Date -->
+            <Label Text="Diet Start Date" FontSize="16" TextColor="{StaticResource TextColor}" />
+            <DatePicker Date="{Binding DietStartDate}" />
+
+            <!-- Target Weight -->
+            <Label Text="Target Weight (e.g., 166 lbs)" FontSize="16" TextColor="{StaticResource TextColor}" />
+            <Entry Placeholder="Enter your target weight" Style="{StaticResource PrimaryEntry}" Text="{Binding TargetWeight}" Keyboard="Numeric" />
+
+            <!-- Diet End Date -->
+            <Label Text="Diet End Date" FontSize="16" TextColor="{StaticResource TextColor}" />
+            <DatePicker Date="{Binding DietEndDate}" />
+
+            <!-- Continue Button -->
+            <Button Text="Continue"
+                    Style="{StaticResource PrimaryButton}"
+                    Command="{Binding ContinueCommand}"
+                    HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

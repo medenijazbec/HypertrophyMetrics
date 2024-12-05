@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:HypertrophyApp.ViewModels"
+             x:Class="HypertrophyApp.Pages.WeighInTimesPage"
+             Title="Weigh-In Times">
+    <ContentPage.BindingContext>
+        <viewmodels:WeighInTimesViewModel />
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15" BackgroundColor="{StaticResource BackgroundColor}">
+            <Label Text="Choose Weigh-In Times"
+                   Style="{StaticResource HeaderLabel}" />
+            <Label Text="Select at least two non-consecutive days." 
+                   FontSize="14" 
+                   HorizontalOptions="Center" 
+                   TextColor="{StaticResource TextColor}" />
+
+            <Grid ColumnDefinitions="Auto,*,Auto,*,Auto" RowSpacing="10" ColumnSpacing="10">
+                <HorizontalStackLayout Grid.Column="0" Grid.Row="0">
+                    <CheckBox IsChecked="{Binding IsMondayChecked}" />
+                    <Label Text="Mon" VerticalOptions="Center" TextColor="{StaticResource TextColor}" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Grid.Column="1" Grid.Row="0">
+                    <CheckBox IsChecked="{Binding IsTuesdayChecked}" />
+                    <Label Text="Tue" VerticalOptions="Center" TextColor="{StaticResource TextColor}" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Grid.Column="2" Grid.Row="0">
+                    <CheckBox IsChecked="{Binding IsWednesdayChecked}" />
+                    <Label Text="Wed" VerticalOptions="Center" TextColor="{StaticResource TextColor}" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Grid.Column="3" Grid.Row="0">
+                    <CheckBox IsChecked="{Binding IsThursdayChecked}" />
+                    <Label Text="Thu" VerticalOptions="Center" TextColor="{StaticResource TextColor}" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Grid.Column="4" Grid.Row="0">
+                    <CheckBox IsChecked="{Binding IsFridayChecked}" />
+                    <Label Text="Fri" VerticalOptions="Center" TextColor="{StaticResource TextColor}" />
+                </HorizontalStackLayout>
+            </Grid>
+
+            <Label Text="Notification Time" FontSize="16" TextColor="{StaticResource TextColor}" />
+            <Entry Placeholder="e.g., 7:15 AM" Text="{Binding NotificationTime}" Style="{StaticResource PrimaryEntry}" />
+
+            <Button Text="Preview Diet" 
+                    Style="{StaticResource PrimaryButton}" 
+                    Command="{Binding PreviewDietCommand}" 
+                    HeightRequest="50" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

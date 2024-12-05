@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Converters="clr-namespace:HypertrophyApp.Converters"
+             x:Class="HypertrophyApp.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- Barvni Viri -->
+            <Color x:Key="PrimaryColor">#FF4444</Color>
+            <!-- Rdeča za gumbe -->
+            <Color x:Key="SecondaryColor">#8E8E93</Color>
+            <!-- Siva -->
+            <Color x:Key="DarkGrayColor">#3A3A3C</Color>
+            <!-- Temno siva -->
+            <Color x:Key="BackgroundColor">#1C1C1C</Color>
+            <!-- Bela za besedilo -->
+            <Color x:Key="TextColor">#FFFFFF</Color>
+
+            <!-- Slogi -->
+            <Style TargetType="Label" x:Key="HeaderLabel">
+                <Setter Property="FontSize" Value="24" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+            </Style>
+
+            <!-- Updated PrimaryButton Style -->
+            <Style TargetType="Button" x:Key="PrimaryButton">
+                <Setter Property="CornerRadius" Value="10" />
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="FontAttributes" Value="None" />
+                <Setter Property="TextColor" Value="Red" />
+            </Style>
+
+
+            <Style TargetType="Entry" x:Key="PrimaryEntry">
+                <Setter Property="PlaceholderColor" Value="{StaticResource SecondaryColor}" />
+                <Setter Property="TextColor" Value="{StaticResource DarkGrayColor}" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="BackgroundColor" Value="#FFFFFF" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="Margin" Value="0,10,0,10" />
+            </Style>
+
+            <!-- Konverterji -->
+            <Converters:BooleanToColorConverter x:Key="BooleanToColorConverter" />
+            <Converters:SelectedButtonBackgroundConverter x:Key="SelectedButtonBackgroundConverter" />
+            <Converters:SelectedButtonStrokeColorConverter x:Key="SelectedButtonStrokeColorConverter" />
+            <Converters:SelectedButtonTextColorConverter x:Key="SelectedButtonTextColorConverter" />
+            <Converters:DaySelectionConverter x:Key="DaySelectionConverter" />
+            <Converters:MuscleGroupConverter x:Key="MuscleGroupConverter" />
+
+            <!-- Dodajte več slogov po potrebi -->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

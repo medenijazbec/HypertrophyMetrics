@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:HypertrophyApp.ViewModels"
+             x:Class="HypertrophyApp.Pages.WorkoutSplitPage"
+             Title="Workout Split">
+    <ContentPage.BindingContext>
+        <viewmodels:WorkoutSplitViewModel />
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10" BackgroundColor="{StaticResource BackgroundColor}">
+            <Label Text="Workout Split"
+                   Style="{StaticResource HeaderLabel}" />
+
+            <CollectionView ItemsSource="{Binding WorkoutDays}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="{StaticResource DarkGrayColor}" CornerRadius="10" Padding="15" Margin="0,5" BackgroundColor="{StaticResource BackgroundColor}">
+                            <VerticalStackLayout>
+                                <Label Text="{Binding DayName}" 
+                                       FontSize="18" 
+                                       FontAttributes="Bold" 
+                                       TextColor="{StaticResource PrimaryColor}" />
+                                <VerticalStackLayout Margin="10,0,0,0">
+                                    <Label Text="{Binding Exercises[0]}" FontSize="16" TextColor="{StaticResource DarkGrayColor}" />
+                                    <Label Text="{Binding Exercises[1]}" FontSize="16" TextColor="{StaticResource DarkGrayColor}" />
+                                    <!-- Dodajte več Labelov za dodatne vaje po potrebi -->
+                                </VerticalStackLayout>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button Text="Plan New Mesocycle"
+                    Style="{StaticResource PrimaryButton}" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

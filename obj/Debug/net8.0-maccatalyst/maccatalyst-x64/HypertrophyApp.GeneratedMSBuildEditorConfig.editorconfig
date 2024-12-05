@@ -1,0 +1,137 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HypertrophyApp
+build_property.ProjectDir = C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/CreateMesocyclePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.CreateMesocyclePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CreateMesocyclePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CreateMesocyclePage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/CustomExercisePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.CustomExercisePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CustomExercisePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CustomExercisePage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/ExerciseLoggingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.ExerciseLoggingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ExerciseLoggingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ExerciseLoggingPage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/FeedbackPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.FeedbackPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FeedbackPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FeedbackPage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/GainingMusclePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.GainingMusclePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\GainingMusclePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\GainingMusclePage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/MesocycleSummaryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.MesocycleSummaryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MesocycleSummaryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MesocycleSummaryPage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/MuscleGroupStatsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.MuscleGroupStatsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MuscleGroupStatsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MuscleGroupStatsPage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/PhasePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.PhasePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PhasePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PhasePage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/PhaseTrackingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.PhaseTrackingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PhaseTrackingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PhaseTrackingPage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/PlanMesocyclePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.PlanMesocyclePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PlanMesocyclePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PlanMesocyclePage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/ScheduleOverviewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.ScheduleOverviewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ScheduleOverviewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ScheduleOverviewPage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/StartDatePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.StartDatePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\StartDatePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\StartDatePage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/WeekPlanPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.WeekPlanPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WeekPlanPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WeekPlanPage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/WeighInTimesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.WeighInTimesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WeighInTimesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WeighInTimesPage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Pages/WorkoutSplitPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Pages.WorkoutSplitPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WorkoutSplitPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WorkoutSplitPage.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Matic/Desktop/FERI/3Letnik/RAZVOJ MOBILNIH RESITEV/RMRprojekt/HypertrophyApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HypertrophyApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

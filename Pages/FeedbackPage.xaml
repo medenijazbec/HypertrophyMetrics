@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewmodels="clr-namespace:HypertrophyApp.ViewModels"
+    x:Class="HypertrophyApp.Pages.FeedbackPage"
+    Title="Feedback"
+    BackgroundColor="#202020">
+
+    <ContentPage.BindingContext>
+        <viewmodels:FeedbackViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="30" BackgroundColor="#202020">
+            <!-- Title -->
+            <Label Text="FEEDBACK"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalOptions="Center" />
+
+            <!-- Joint Pain Section -->
+            <VerticalStackLayout Spacing="10">
+                <Label Text="JOINT PAIN"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="White" />
+                <Label Text="How did your joints feel during Pulldown (Straight Arm)?"
+                       FontSize="14"
+                       TextColor="#CCCCCC"
+                       Margin="0,0,0,5" />
+
+                <!-- Buttons -->
+                <Grid ColumnDefinitions="*,*,*,*" Margin="0">
+                    <!-- NONE Button -->
+                    <Frame Grid.Column="0"
+                           BackgroundColor="#333333"
+                           CornerRadius="5"
+                           Margin="5"
+                           HasShadow="False"
+                           WidthRequest="80"
+                           HorizontalOptions="Center">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding JointPainCommand}"
+                                                  CommandParameter="None" />
+                        </Frame.GestureRecognizers>
+                        <Label Text="NONE"
+                               FontSize="9"
+                               TextColor="White"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Frame>
+
+                    <!-- LOW PAIN Button -->
+                    <Frame Grid.Column="1"
+                           BackgroundColor="#333333"
+                           CornerRadius="5"
+                           Margin="5"
+                           HasShadow="False"
+                           WidthRequest="80"
+                           HorizontalOptions="Center">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding JointPainCommand}"
+                                                  CommandParameter="Low Pain" />
+                        </Frame.GestureRecognizers>
+                        <Label Text="LOW PAIN"
+                               FontSize="12"
+                               TextColor="White"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Frame>
+
+                    <!-- MODERATE PAIN Button -->
+                    <Frame Grid.Column="2"
+                           BackgroundColor="#8B0000"
+                           CornerRadius="5"
+                           Margin="5"
+                           HasShadow="False"
+                           WidthRequest="80"
+                           HorizontalOptions="Center">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding JointPainCommand}"
+                                                  CommandParameter="Moderate Pain" />
+                        </Frame.GestureRecognizers>
+                        <Label Text="MODERATE PAIN"
+                               FontSize="12"
+                               TextColor="White"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Frame>
+
+                    <!-- A LOT OF PAIN Button -->
+                    <Frame Grid.Column="3"
+                           BackgroundColor="#333333"
+                           CornerRadius="5"
+                           Margin="5"
+                           HasShadow="False"
+                           WidthRequest="80"
+                           HorizontalOptions="Center">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding JointPainCommand}"
+                                                  CommandParameter="A Lot of Pain" />
+                        </Frame.GestureRecognizers>
+                        <Label Text="A LOT OF PAIN"
+                               FontSize="12"
+                               TextColor="White"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Frame>
+                </Grid>
+            </VerticalStackLayout>
+
+            <!-- Back Pump Section -->
+            <VerticalStackLayout Spacing="10">
+                <Label Text="BACK PUMP"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="White" />
+                <Label Text="How much of a pump did you get today in your back?"
+                       FontSize="14"
+                       TextColor="#CCCCCC"
+                       Margin="0,0,0,5" />
+
+                <!-- Buttons -->
+                <Grid ColumnDefinitions="*,*,*,*" Margin="0">
+                    <!-- NONE Button -->
+                    <Frame Grid.Column="0"
+                           BackgroundColor="#333333"
+                           CornerRadius="5"
+                           Margin="5"
+                           HasShadow="False"
+                           WidthRequest="80"
+                           HorizontalOptions="Center">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BackPumpCommand}"
+                                                  CommandParameter="None" />
+                        </Frame.GestureRecognizers>
+                        <Label Text="NONE"
+                               FontSize="12"
+                               TextColor="White"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Frame>
+
+                    <!-- LOW PUMP Button -->
+                    <Frame Grid.Column="1"
+                           BackgroundColor="#333333"
+                           CornerRadius="5"
+                           Margin="5"
+                           HasShadow="False"
+                           WidthRequest="80"
+                           HorizontalOptions="Center">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BackPumpCommand}"
+                                                  CommandParameter="Low Pump" />
+                        </Frame.GestureRecognizers>
+                        <Label Text="LOW PUMP"
+                               FontSize="9"
+                               TextColor="White"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Frame>
+
+                    <!-- MODERATE PUMP Button -->
+                    <Frame Grid.Column="2"
+                           BackgroundColor="#8B0000"
+                           CornerRadius="5"
+                           Margin="5"
+                           HasShadow="False"
+                           WidthRequest="80"
+                           HorizontalOptions="Center">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BackPumpCommand}"
+                                                  CommandParameter="Moderate Pump" />
+                        </Frame.GestureRecognizers>
+                        <Label Text="MODERATE PUMP"
+                               FontSize="9"
+                               TextColor="White"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Frame>
+
+                    <!-- AMAZING PUMP Button -->
+                    <Frame Grid.Column="3"
+                           BackgroundColor="#333333"
+                           CornerRadius="5"
+                           Margin="5"
+                           HasShadow="False"
+                           WidthRequest="80"
+                           HorizontalOptions="Center">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BackPumpCommand}"
+                                                  CommandParameter="Amazing Pump" />
+                        </Frame.GestureRecognizers>
+                        <Label Text="AMAZING PUMP"
+                               FontSize="9"
+                               TextColor="White"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Frame>
+                </Grid>
+            </VerticalStackLayout>
+
+            <!-- Back Workload Section -->
+            <VerticalStackLayout Spacing="10">
+                <Label Text="BACK WORKLOAD"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="White" />
+                <Label Text="How would you rate the difficulty of the work you did for your back?"
+                       FontSize="14"
+                       TextColor="#CCCCCC"
+                       Margin="0,0,0,5" />
+
+                <!-- Buttons -->
+                <Grid ColumnDefinitions="*,*,*,*" Margin="0">
+                    <!-- EASY Button -->
+                    <Frame Grid.Column="0"
+                           BackgroundColor="#333333"
+                           CornerRadius="5"
+                           Margin="1"
+                           HasShadow="False"
+                           WidthRequest="80"
+                           HorizontalOptions="Center">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BackWorkloadCommand}"
+                                                  CommandParameter="Easy" />
+                        </Frame.GestureRecognizers>
+                        <Label Text="EASY"
+                               FontSize="9"
+                               TextColor="White"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Frame>
+
+                    <!-- PRETTY GOOD Button -->
+                    <Frame Grid.Column="1"
+                           BackgroundColor="#333333"
+                           CornerRadius="5"
+                           Margin="5"
+                           HasShadow="False"
+                           WidthRequest="80"
+                           HorizontalOptions="Center">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BackWorkloadCommand}"
+                                                  CommandParameter="Pretty Good" />
+                        </Frame.GestureRecognizers>
+                        <Label Text="PRETTY GOOD"
+                               FontSize="9"
+                               TextColor="White"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Frame>
+
+                    <!-- PUSHED MY LIMITS Button -->
+                    <Frame Grid.Column="2"
+                           BackgroundColor="#8B0000"
+                           CornerRadius="5"
+                           Margin="5"
+                           HasShadow="False"
+                           WidthRequest="80"
+                           HorizontalOptions="Center">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BackWorkloadCommand}"
+                                                  CommandParameter="Pushed My Limits" />
+                        </Frame.GestureRecognizers>
+                        <Label Text="PUSHED MY LIMITS"
+                               FontSize="9"
+                               TextColor="White"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Frame>
+
+                    <!-- TOO MUCH Button -->
+                    <Frame Grid.Column="3"
+                           BackgroundColor="#333333"
+                           CornerRadius="5"
+                           Margin="5"
+                           HasShadow="False"
+                           WidthRequest="80"
+                           HorizontalOptions="Center">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BackWorkloadCommand}"
+                                                  CommandParameter="Too Much" />
+                        </Frame.GestureRecognizers>
+                        <Label Text="TOO MUCH"
+                               FontSize="9"
+                               TextColor="White"
+                               HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Frame>
+                </Grid>
+            </VerticalStackLayout>
+
+            <!-- Cancel and Save Buttons -->
+            <HorizontalStackLayout Spacing="20" HorizontalOptions="CenterAndExpand">
+                <Button Text="CANCEL"
+                        BackgroundColor="#333333"
+                        TextColor="White"
+                        CornerRadius="5"
+                        FontSize="16"
+                        WidthRequest="120"
+                        HeightRequest="50"
+                        Command="{Binding CancelCommand}" />
+                <Button Text="SAVE"
+                        BackgroundColor="#8B0000"
+                        TextColor="White"
+                        CornerRadius="5"
+                        FontSize="16"
+                        WidthRequest="120"
+                        HeightRequest="50"
+                        Command="{Binding SaveCommand}" />
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

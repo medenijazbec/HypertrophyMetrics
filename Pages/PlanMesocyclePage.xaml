@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:HypertrophyApp.ViewModels"
+             xmlns:converters="clr-namespace:HypertrophyApp.Converters"
+             x:Class="HypertrophyApp.Pages.PlanMesocyclePage"
+             Title="Plan a Mesocycle"
+             BackgroundColor="{StaticResource PrimaryColor}">
+
+    <!-- Definicija virov -->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!-- Obstoječi Slogi in Viri -->
+
+            <Style TargetType="Button" x:Key="PrimaryButton">
+                <Setter Property="FontAttributes" Value="None" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="TextColor" Value="Red" />
+                <Setter Property="Padding" Value="0" />
+                <Setter Property="Margin" Value="0" />
+            </Style>
+
+            <!-- Definicija StrokeShapes -->
+            <RoundRectangle x:Key="LeftRoundedCorners"
+                CornerRadius="10,10,10,10" />
+            <RoundRectangle x:Key="RightRoundedCorners"
+                CornerRadius="10,10,10,10" />
+
+            <!-- Konverterji -->
+            <converters:SelectedButtonBackgroundConverter x:Key="SelectedButtonBackgroundConverter" />
+            
+            <converters:SelectedButtonStrokeColorConverter x:Key="SelectedButtonStrokeColorConverter" />
+            <converters:SelectedButtonTextColorConverter x:Key="SelectedButtonTextColorConverter" />
+            <converters:BooleanToColorConverter x:Key="BooleanToColorConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.BindingContext>
+        <viewmodels:PlanMesocycleViewModel />
+    </ContentPage.BindingContext>
+
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20,30" Spacing="25" HorizontalOptions="FillAndExpand">
+            <!-- Title -->
+            <Label Text="Plan a Mesocycle"
+                   Style="{StaticResource HeaderLabel}"
+                   HorizontalOptions="Center"
+                   TextColor="White" />
+
+            <!-- Preset, Custom Buttons -->
+            <Frame CornerRadius="15"
+                   BackgroundColor="#c3c3c8"
+                   Padding="5"
+                   HasShadow="False"
+                   HorizontalOptions="FillAndExpand"
+                   IsClippedToBounds="True">
+                <Grid ColumnSpacing="0" RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Border for "Choose a preset meso" button -->
+                    <Border Grid.Column="0"
+                            
+                           
+                            BackgroundColor="{Binding SelectedMesoType, Converter={StaticResource SelectedButtonBackgroundConverter}, ConverterParameter=Preset}"
+                            StrokeShape="{StaticResource LeftRoundedCorners}">
+                        <Button Text="Choose a preset meso"
+                                Command="{Binding PresetCommand}"
+                                Style="{StaticResource PrimaryButton}"
+                                BackgroundColor="Transparent"
+                                TextColor="{Binding SelectedMesoType, Converter={StaticResource SelectedButtonTextColorConverter}, ConverterParameter=Preset}"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand"
+                                Padding="5"/>
+                    </Border>
+
+                    <!-- Border for "Create a custom meso" button -->
+                    <Border Grid.Column="1"
+                            
+                           
+                            BackgroundColor="{Binding SelectedMesoType, Converter={StaticResource SelectedButtonBackgroundConverter}, ConverterParameter=Custom}"
+                            StrokeShape="{StaticResource RightRoundedCorners}">
+                        
+                        
+                        <Button Text="Create a custom meso"
+                              Command="{Binding CustomCommand}"
+                              Style="{StaticResource PrimaryButton}"
+                              BackgroundColor="Transparent"
+                              TextColor="{Binding SelectedMesoType, Converter={StaticResource SelectedButtonTextColorConverter}, ConverterParameter=Custom}"
+                              HorizontalOptions="FillAndExpand"
+                              VerticalOptions="FillAndExpand" 
+                              Padding="5"/>
+
+                    </Border>
+                </Grid>
+            </Frame>
+
+            <!-- Form Section -->
+            <VerticalStackLayout Spacing="20" HorizontalOptions="Center">
+                <Label Text="Preset Meso"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       TextColor="White" />
+
+                <!-- Sex Selection -->
+                <Label Text="What is your sex?" 
+                       FontSize="16" 
+                       HorizontalTextAlignment="Center"
+                       TextColor="White" />
+                <HorizontalStackLayout Spacing="10" Padding="0,10" HorizontalOptions="Center">
+                    <Button Text="Male"
+                            Command="{Binding SelectMaleCommand}"
+                            HeightRequest="50"
+                            WidthRequest="120"
+                            BackgroundColor="{Binding IsMale, Converter={StaticResource BooleanToColorConverter}, ConverterParameter=GrayToRed}"
+                            TextColor="White" />
+                    <Button Text="Female"
+                            Command="{Binding SelectFemaleCommand}"
+                            HeightRequest="50"
+                            WidthRequest="120"
+                            BackgroundColor="{Binding IsFemale, Converter={StaticResource BooleanToColorConverter}, ConverterParameter=GrayToRed}"
+                            TextColor="White" />
+                </HorizontalStackLayout>
+
+                <!-- Day of the Week Picker -->
+                <Label Text="What day of the week will you begin your meso?" 
+                       FontSize="16" 
+                       HorizontalTextAlignment="Center"
+                       TextColor="White" />
+                <Picker Title="Select a day"
+                        ItemsSource="{Binding DaysOfWeek}"
+                        SelectedItem="{Binding SelectedStartDay}" 
+                        HorizontalOptions="Center"
+                        WidthRequest="250"
+                        BackgroundColor="#FFFFFF" />
+
+                <!-- Preset Picker -->
+                <Label Text="Preset" 
+                       FontSize="16" 
+                       HorizontalTextAlignment="Center"
+                       TextColor="White" />
+                <Picker Title="Select Preset"
+                        ItemsSource="{Binding PresetOptions}"
+                        SelectedItem="{Binding SelectedPreset}" 
+                        HorizontalOptions="Center"
+                        WidthRequest="250"
+                        BackgroundColor="#FFFFFF" />
+            </VerticalStackLayout>
+
+            <!-- Continue Button -->
+            <Button Text="Continue"
+                    Command="{Binding ContinueCommand}"
+                    Style="{StaticResource PrimaryButton}"
+                    FontAttributes="Bold"
+                    HeightRequest="60"
+                    BackgroundColor="#FF4444" 
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    WidthRequest="250" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

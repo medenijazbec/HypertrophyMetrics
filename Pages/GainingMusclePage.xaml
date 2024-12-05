@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:HypertrophyApp.ViewModels"
+             x:Class="HypertrophyApp.Pages.GainingMusclePage"
+             Title="Weekly Workout"
+             BackgroundColor="#202020">
+    <!-- Temno ozadje strani -->
+
+    <ContentPage.BindingContext>
+        <viewmodels:WeeklyWorkoutViewModel />
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="15" BackgroundColor="#202020">
+            <!-- Header: Week, Day, and Date with Planner Icon -->
+            <Grid ColumnDefinitions="*,Auto"
+                  VerticalOptions="Center"
+                  HorizontalOptions="FillAndExpand">
+                <!-- Centered Labels -->
+                <HorizontalStackLayout Grid.Column="0" 
+                                       HorizontalOptions="Center"
+                                       Spacing="10">
+                    <Label Text="WEEK 2"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="White" />
+                    <Label Text="DAY 5"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="White" />
+                    <Label Text="Saturday"
+                           FontSize="16"
+                           FontAttributes="Bold"
+                           TextColor="White" />
+                </HorizontalStackLayout>
+                <!-- Planner Icon -->
+                <ImageButton Source="planner_white.png" 
+                             Command="{Binding ShowDayPickerCommand}" 
+                             WidthRequest="24" 
+                             HeightRequest="24"
+                             BackgroundColor="Transparent"
+                             HorizontalOptions="End" 
+                             VerticalOptions="Center" />
+            </Grid>
+
+            <!-- Naslov Sekcije -->
+            <Label Text="Gaining Muscle"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalOptions="Center" />
+
+            <!-- Gumbi za Mišične Skupine (Opcionalno: lahko filtrirajo vaje) -->
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="FillAndExpand">
+                <Button Text="Glutes"
+                        BackgroundColor="#8B0000"
+                        TextColor="White"
+                        CornerRadius="5"
+                        HorizontalOptions="CenterAndExpand" />
+                <Button Text="Hamstrings"
+                        BackgroundColor="#8B0000"
+                        TextColor="White"
+                        CornerRadius="5"
+                        HorizontalOptions="CenterAndExpand" />
+                <Button Text="Calves"
+                        BackgroundColor="#8B0000"
+                        TextColor="White"
+                        CornerRadius="5"
+                        HorizontalOptions="CenterAndExpand" />
+            </HorizontalStackLayout>
+
+            <!-- Glutes Exercises -->
+            <Frame BorderColor="#808080" CornerRadius="10" Padding="15" BackgroundColor="#2F2F2F">
+                <VerticalStackLayout>
+                    <!-- Exercise Header -->
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="Glutes"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               TextColor="#8B0000" />
+                        <Label Text="Deadlift"
+                               FontSize="16"
+                               TextColor="White" />
+                        <Image Source="play_icon_white.png" WidthRequest="24" HeightRequest="24" />
+                    </HorizontalStackLayout>
+                    <!-- Equipment and Instructions -->
+                    <Label Text="Barbell"
+                           FontSize="14"
+                           TextColor="#CCCCCC" />
+                    <!-- Sets Header -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,10,0,0">
+                        <Label Grid.Column="0" Text="WEIGHT" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="1" Text="REPS" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="2" Text="RIR" FontSize="14" TextColor="White" FontAttributes="Bold" />
+                    </Grid>
+                    <!-- Set 1 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="230" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="5" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 2 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="240" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="5" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 3 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="250" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="5" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Additional Exercises for Glutes -->
+            <Frame BorderColor="#808080" CornerRadius="10" Padding="15" BackgroundColor="#2F2F2F">
+                <VerticalStackLayout>
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="Glutes"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               TextColor="#8B0000" />
+                        <Label Text="Hip Thrust"
+                               FontSize="16"
+                               TextColor="White" />
+                        <Image Source="play_icon_white.png" WidthRequest="24" HeightRequest="24" />
+                    </HorizontalStackLayout>
+                    <Label Text="Barbell"
+                           FontSize="14"
+                           TextColor="#CCCCCC" />
+                    <!-- Sets Header -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,10,0,0">
+                        <Label Grid.Column="0" Text="WEIGHT" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="1" Text="REPS" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="2" Text="RIR" FontSize="14" TextColor="White" FontAttributes="Bold" />
+                    </Grid>
+                    <!-- Set 1 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="200" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="8" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 2 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="210" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="8" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 3 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="220" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="8" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Hamstrings Exercises -->
+            <Frame BorderColor="#808080" CornerRadius="10" Padding="15" BackgroundColor="#2F2F2F">
+                <VerticalStackLayout>
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="Hamstrings"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               TextColor="#8B0000" />
+                        <Label Text="Romanian Deadlift"
+                               FontSize="16"
+                               TextColor="White" />
+                        <Image Source="play_icon_white.png" WidthRequest="24" HeightRequest="24" />
+                    </HorizontalStackLayout>
+                    <Label Text="Barbell"
+                           FontSize="14"
+                           TextColor="#CCCCCC" />
+                    <!-- Sets Header -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,10,0,0">
+                        <Label Grid.Column="0" Text="WEIGHT" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="1" Text="REPS" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="2" Text="RIR" FontSize="14" TextColor="White" FontAttributes="Bold" />
+                    </Grid>
+                    <!-- Set 1 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="80" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="8" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 2 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="85" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="8" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 3 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="90" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="8" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame BorderColor="#808080" CornerRadius="10" Padding="15" BackgroundColor="#2F2F2F">
+                <VerticalStackLayout>
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="Hamstrings"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               TextColor="#8B0000" />
+                        <Label Text="Leg Curl"
+                               FontSize="16"
+                               TextColor="White" />
+                        <Image Source="play_icon_white.png" WidthRequest="24" HeightRequest="24" />
+                    </HorizontalStackLayout>
+                    <Label Text="Leg Curl Machine"
+                           FontSize="14"
+                           TextColor="#CCCCCC" />
+                    <!-- Sets Header -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,10,0,0">
+                        <Label Grid.Column="0" Text="WEIGHT" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="1" Text="REPS" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="2" Text="RIR" FontSize="14" TextColor="White" FontAttributes="Bold" />
+                    </Grid>
+                    <!-- Set 1 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="60" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="10" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 2 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="65" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="10" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 3 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="70" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="12" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Additional Exercises for Hamstrings -->
+            <Frame BorderColor="#808080" CornerRadius="10" Padding="15" BackgroundColor="#2F2F2F">
+                <VerticalStackLayout>
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="Hamstrings"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               TextColor="#8B0000" />
+                        <Label Text="Good Mornings"
+                               FontSize="16"
+                               TextColor="White" />
+                        <Image Source="play_icon_white.png" WidthRequest="24" HeightRequest="24" />
+                    </HorizontalStackLayout>
+                    <Label Text="Barbell"
+                           FontSize="14"
+                           TextColor="#CCCCCC" />
+                    <!-- Sets Header -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,10,0,0">
+                        <Label Grid.Column="0" Text="WEIGHT" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="1" Text="REPS" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="2" Text="RIR" FontSize="14" TextColor="White" FontAttributes="Bold" />
+                    </Grid>
+                    <!-- Set 1 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="70" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="12" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 2 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="75" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="12" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 3 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="80" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="12" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Calves Exercises -->
+            <Frame BorderColor="#808080" CornerRadius="10" Padding="15" BackgroundColor="#2F2F2F">
+                <VerticalStackLayout>
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="Calves"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               TextColor="#8B0000" />
+                        <Label Text="Standing Calf Raise"
+                               FontSize="16"
+                               TextColor="White" />
+                        <Image Source="play_icon_white.png" WidthRequest="24" HeightRequest="24" />
+                    </HorizontalStackLayout>
+                    <Label Text="Calf Raise Machine"
+                           FontSize="14"
+                           TextColor="#CCCCCC" />
+                    <!-- Sets Header -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,10,0,0">
+                        <Label Grid.Column="0" Text="WEIGHT" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="1" Text="REPS" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="2" Text="RIR" FontSize="14" TextColor="White" FontAttributes="Bold" />
+                    </Grid>
+                    <!-- Set 1 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="50" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="15" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 2 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="55" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="15" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 3 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="60" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="20" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame BorderColor="#808080" CornerRadius="10" Padding="15" BackgroundColor="#2F2F2F">
+                <VerticalStackLayout>
+                    <HorizontalStackLayout Spacing="10">
+                        <Label Text="Calves"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               TextColor="#8B0000" />
+                        <Label Text="Seated Calf Raise"
+                               FontSize="16"
+                               TextColor="White" />
+                        <Image Source="play_icon_white.png" WidthRequest="24" HeightRequest="24" />
+                    </HorizontalStackLayout>
+                    <Label Text="Calf Raise Machine"
+                           FontSize="14"
+                           TextColor="#CCCCCC" />
+                    <!-- Sets Header -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,10,0,0">
+                        <Label Grid.Column="0" Text="WEIGHT" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="1" Text="REPS" FontSize="14" TextColor="White" />
+                        <Label Grid.Column="2" Text="RIR" FontSize="14" TextColor="White" FontAttributes="Bold" />
+                    </Grid>
+                    <!-- Set 1 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="60" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="20" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 2 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="65" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="20" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                    <!-- Set 3 -->
+                    <Grid ColumnDefinitions="*,*,*" RowSpacing="10" Margin="0,5,0,0">
+                        <HorizontalStackLayout Grid.Column="0" Spacing="5">
+                            <Entry Placeholder="70" WidthRequest="80" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" Spacing="5">
+                            <Entry Placeholder="18" WidthRequest="50" BackgroundColor="#333333" TextColor="White" />
+                        </HorizontalStackLayout>
+                        <Button Grid.Column="2" Text="LOG SET"
+                                BackgroundColor="#FF4444"
+                                TextColor="White"
+                                CornerRadius="5"
+                                HeightRequest="40" />
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Dodajte več vaj za vsako mišično skupino po potrebi -->
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
