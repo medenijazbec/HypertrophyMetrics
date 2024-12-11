@@ -1,5 +1,9 @@
-﻿using System.Collections.ObjectModel;
-using Microsoft.Maui.Controls;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using HypertrophyApp.Models;
+using System.Linq;
 
 namespace HypertrophyApp.ViewModels
 {
@@ -15,13 +19,13 @@ namespace HypertrophyApp.ViewModels
                 {
                     selectedMuscleGroup = value;
                     OnPropertyChanged();
-                    LoadExercisesForMuscleGroup();
+                    UpdateFilteredExercises();
                 }
             }
         }
 
-        private string selectedExercise;
-        public string SelectedExercise
+        private Exercise selectedExercise;
+        public Exercise SelectedExercise
         {
             get => selectedExercise;
             set
@@ -34,9 +38,9 @@ namespace HypertrophyApp.ViewModels
             }
         }
 
-        public ObservableCollection<string> Exercises { get; set; } = new ObservableCollection<string>();
+        public ObservableCollection<Exercise> Exercises { get; set; } = new ObservableCollection<Exercise>();
 
-        // Add the MuscleGroupsList property here
+        // Expose MuscleGroupsList from the ParentViewModel
         public List<string> MuscleGroupsList => ParentViewModel.MuscleGroupsList;
 
         private CreateMesocycleViewModel ParentViewModel { get; }
@@ -44,83 +48,40 @@ namespace HypertrophyApp.ViewModels
         public MuscleGroupViewModel(CreateMesocycleViewModel parentViewModel)
         {
             ParentViewModel = parentViewModel;
+
+            // Subscribe to changes in AllExercises
+            ParentViewModel.AllExercises.CollectionChanged += AllExercises_CollectionChanged;
+
+            // Initialize exercises based on selected muscle group
+            UpdateFilteredExercises();
         }
 
-        private void LoadExercisesForMuscleGroup()
+        private void AllExercises_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        {
+            UpdateFilteredExercises();
+        }
+
+        private void UpdateFilteredExercises()
         {
             Exercises.Clear();
-
             if (string.IsNullOrEmpty(SelectedMuscleGroup))
                 return;
 
-            switch (SelectedMuscleGroup)
+            var filtered = ParentViewModel.AllExercises.Where(ex => ex.MuscleGroup == SelectedMuscleGroup);
+            foreach (var ex in filtered)
             {
-                case "Chest":
-                    Exercises.Add("Bench Press");
-                    Exercises.Add("Incline Dumbbell Press");
-                    Exercises.Add("Chest Fly");
-                    break;
-                case "Back":
-                    Exercises.Add("Deadlift");
-                    Exercises.Add("Pull-ups");
-                    Exercises.Add("Bent Over Row");
-                    break;
-                case "Triceps":
-                    Exercises.Add("Triceps Pushdown");
-                    Exercises.Add("Overhead Triceps Extension");
-                    Exercises.Add("Close Grip Bench Press");
-                    break;
-                case "Biceps":
-                    Exercises.Add("Barbell Curl");
-                    Exercises.Add("Hammer Curl");
-                    Exercises.Add("Preacher Curl");
-                    break;
-                case "Shoulders and Traps":
-                    Exercises.Add("Military Press");
-                    Exercises.Add("Lateral Raises");
-                    Exercises.Add("Shrugs");
-                    break;
-                case "Quads":
-                    Exercises.Add("Squats");
-                    Exercises.Add("Leg Press");
-                    Exercises.Add("Lunges");
-                    break;
-                case "Glutes":
-                    Exercises.Add("Hip Thrusts");
-                    Exercises.Add("Glute Bridges");
-                    Exercises.Add("Cable Kickbacks");
-                    break;
-                case "Hamstrings":
-                    Exercises.Add("Romanian Deadlift");
-                    Exercises.Add("Leg Curl");
-                    Exercises.Add("Good Mornings");
-                    break;
-                case "Calves":
-                    Exercises.Add("Standing Calf Raise");
-                    Exercises.Add("Seated Calf Raise");
-                    Exercises.Add("Donkey Calf Raise");
-                    break;
-                case "Traps":
-                    Exercises.Add("Barbell Shrugs");
-                    Exercises.Add("Dumbbell Shrugs");
-                    Exercises.Add("Upright Rows");
-                    break;
-                case "Forearms":
-                    Exercises.Add("Wrist Curls");
-                    Exercises.Add("Reverse Wrist Curls");
-                    Exercises.Add("Farmer's Walk");
-                    break;
-                case "Abs":
-                    Exercises.Add("Crunches");
-                    Exercises.Add("Planks");
-                    Exercises.Add("Leg Raises");
-                    break;
-                default:
-                    Exercises.Add("Exercise 1");
-                    Exercises.Add("Exercise 2");
-                    Exercises.Add("Exercise 3");
-                    break;
+                Exercises.Add(ex);
             }
         }
+
+        #region INotifyPropertyChanged Implementation
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        #endregion
     }
 }

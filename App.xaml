@@ -50,7 +50,6 @@
             <Converters:DaySelectionConverter x:Key="DaySelectionConverter" />
             <Converters:MuscleGroupConverter x:Key="MuscleGroupConverter" />
 
-            <!-- Dodajte več slogov po potrebi -->
         </ResourceDictionary>
     </Application.Resources>
 </Application>

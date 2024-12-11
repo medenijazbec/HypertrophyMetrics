@@ -15,7 +15,7 @@
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath></WindowsSdkPath>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
@@ -222,6 +222,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logbook.scale-100.png">
       <PackagePath>logbook.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\minus.scale-100.png">
+      <PackagePath>minus.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\muscle.scale-100.png">
       <PackagePath>muscle.scale-100.png</PackagePath>

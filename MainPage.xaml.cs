@@ -10,7 +10,7 @@ namespace HypertrophyApp
         {
             InitializeComponent();
 
-            // Nastavite začetno stran
+        
             NavigateToPage(new CustomExercisePage());
 
 
@@ -113,6 +113,5 @@ namespace HypertrophyApp
         }
 
 
-        // Dodajte več metod za druge strani po potrebi
     }
 }

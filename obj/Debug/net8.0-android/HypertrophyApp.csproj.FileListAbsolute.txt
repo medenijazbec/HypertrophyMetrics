@@ -1052,3 +1052,5 @@ C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\Hypertrop
 C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-android\HypertrophyApp.sourcelink.json
+C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-android\resizetizer\r\drawable\minus.png

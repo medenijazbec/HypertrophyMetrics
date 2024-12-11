@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
+    x:Name="Page"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:viewmodels="clr-namespace:HypertrophyApp.ViewModels"
@@ -11,193 +12,244 @@
     <!-- Page Resources -->
     <ContentPage.Resources>
         <ResourceDictionary>
-            <!-- Obstoječi slogi -->
+            <!-- Existing Styles -->
             <Style x:Key="PrimaryButton" TargetType="Button">
                 <Setter Property="CornerRadius" Value="10" />
                 <Setter Property="Padding" Value="5" />
                 <Setter Property="FontAttributes" Value="None" />
                 <Setter Property="TextColor" Value="Red" />
             </Style>
-            <!-- Registracija Converterjev -->
+            <!-- Register Converters -->
             <converters:MuscleGroupToFrameColorConverter x:Key="MuscleGroupToFrameColorConverter" />
             <converters:MuscleGroupToPickerColorConverter x:Key="MuscleGroupToPickerColorConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <!-- Ostala vsebina strani -->
-    <ScrollView>
-        <VerticalStackLayout Padding="20,30" Spacing="25" HorizontalOptions="FillAndExpand">
-            <!-- Title -->
-            <Label Text="Create a Mesocycle"
-                   Style="{StaticResource HeaderLabel}"
-                   HorizontalOptions="Center"
-                   TextColor="White" />
+    <!-- Page Content -->
+    <Grid>
+        <!-- Scrollable Content -->
+        <ScrollView>
+            <VerticalStackLayout Padding="20,30" Spacing="25" HorizontalOptions="FillAndExpand">
+                <!-- Title -->
+                <Label Text="Create a Mesocycle"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="White" />
 
-            <!-- Number of Days Picker -->
-            <Label Text="Select the number of days in your mesocycle:"
-                   FontSize="16"
-                   HorizontalTextAlignment="Center"
-                   TextColor="White" />
+                <!-- Instructions -->
+                <Label Text="Add days to your mesocycle (minimum 2, maximum 7):"
+                       FontSize="16"
+                       HorizontalTextAlignment="Center"
+                       TextColor="White" />
+
+                <!-- Create Custom Exercise Button -->
+                <Button Text="Create Custom Exercise"
+                    Command="{Binding ShowCustomExerciseCommand}"
+                    BackgroundColor="#3b3b3d"
+                    TextColor="White"
+                    HorizontalOptions="Center" />   
 
 
+                <!-- Days CollectionView -->
+                <CollectionView ItemsSource="{Binding Days}"
+                                SelectionMode="None">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame CornerRadius="10"
+                                   BorderColor="#d51f21"
+                                   BackgroundColor="#3b3b3d"
+                                   Padding="10"
+                                   Margin="5"
+                                   HasShadow="False">
+                                <VerticalStackLayout Spacing="10">
+                                    <!-- Day of Week Picker with Remove Icon -->
+                                    <Grid ColumnDefinitions="*, Auto" VerticalOptions="Center">
+                                        <Label Text="Select Day of Week"
+                                               FontSize="16"
+                                               TextColor="White"
+                                               VerticalOptions="Center" />
+                                        <Image Source="minus.png"
+                                               WidthRequest="24"
+                                               HeightRequest="24"
+                                               HorizontalOptions="End"
+                                               VerticalOptions="Center"
+                                               Margin="5,0,0,0"
+                                               IsVisible="{Binding Source={x:Reference Page}, Path=BindingContext.CanRemoveMoreDays}">
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer
+                                                    Command="{Binding BindingContext.RemoveDayCommand, Source={x:Reference Page}}"
+                                                    CommandParameter="{Binding .}" />
+                                            </Image.GestureRecognizers>
+                                        </Image>
+                                    </Grid>
+                                    <Frame CornerRadius="10"
+                                           BorderColor="#d51f21"
+                                           BackgroundColor="#3b3b3d"
+                                           Padding="0"
+                                           HasShadow="False">
+                                        <Picker Title="Select Day of Week"
+                                                ItemsSource="{Binding DaysOfWeek}"
+                                                SelectedItem="{Binding SelectedDayOfWeek}"
+                                                HorizontalOptions="FillAndExpand"
+                                                BackgroundColor="Transparent"
+                                                ItemDisplayBinding="{Binding}" />
+                                    </Frame>
 
-
-
-            <Frame 
-    CornerRadius="10"
-    BorderColor="#d51f21"
-    BackgroundColor="#3b3b3d"
-    Padding="15"
-    HasShadow="True"
-    HorizontalOptions="Center"
-    WidthRequest="300">
-                <VerticalStackLayout Spacing="10">
-                    <!-- Section Title -->
-                    <Label Text="Number of Days"
-               FontSize="20"
-               FontAttributes="Bold"
-               TextColor="White"
-               HorizontalOptions="Center" />
-
-                    <!-- Picker -->
-                    <Picker 
-            Title="Select number of days"
-            ItemsSource="{Binding NumberOfDaysOptions}"
-            SelectedItem="{Binding NumberOfDays}"
-            HorizontalOptions="FillAndExpand"
-            BackgroundColor="Transparent"
-            TextColor="White"
-            FontSize="16"
-            />
-
-                    <!-- Days Chosen Label -->
-                    <Label Text="{Binding NumberOfDays, StringFormat='Days chosen: {0}'}"
-               FontSize="16"
-               FontAttributes="Italic"
-               HorizontalOptions="Center"
-               TextColor="LightGray" />
-                </VerticalStackLayout>
-            </Frame>
-
-            <!-- Display the number of days chosen -->
-            <Label Text="{Binding NumberOfDays, StringFormat='Days chosen: {0}'}"
-                   FontSize="16"
-                   HorizontalOptions="Center"
-                   TextColor="White" />
-
-            <!-- Days CollectionView -->
-            <CollectionView ItemsSource="{Binding Days}"
-                            SelectionMode="None">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Frame CornerRadius="10"
-                               BorderColor="#d51f21"
-                               BackgroundColor="#3b3b3d"
-                               Padding="10"
-                               Margin="5"
-                               HasShadow="False">
-                            <VerticalStackLayout Spacing="10">
-                                <!-- Day of Week Picker -->
-                                <Label Text="Select Day of Week"
-                                       FontSize="16"
-                                       TextColor="White" />
-                                <Frame CornerRadius="10"
-                                       BorderColor="#d51f21"
-                                       BackgroundColor="#3b3b3d"
-                                       Padding="0"
-                                       HasShadow="False">
-                                    <Picker Title="Select Day of Week"
-                                            ItemsSource="{Binding DaysOfWeek}"
-                                            SelectedItem="{Binding SelectedDayOfWeek}"
-                                            HorizontalOptions="FillAndExpand"
-                                            BackgroundColor="Transparent" />
-                                </Frame>
-
-                                <!-- Muscle Groups Section -->
-                                <CollectionView ItemsSource="{Binding MuscleGroups}"
-                                                SelectionMode="None">
-                                    <CollectionView.ItemTemplate>
-                                        <DataTemplate>
-                                            <Frame CornerRadius="10"
-                                                   BorderColor="#fefefe"
-                                                   BackgroundColor="#3b3b3d"
-                                                   Padding="10"
-                                                   Margin="5"
-                                                   HasShadow="False">
-                                                <VerticalStackLayout Spacing="10">
-                                                    <Frame 
-                                                        CornerRadius="10"
-                                                        BorderColor="#d51f21"
-                                                        Padding="3" 
-                                                        HasShadow="False"
-                                                        HorizontalOptions="FillAndExpand"
-                                                        
-                                                        BackgroundColor="{Binding SelectedMuscleGroup, Converter={StaticResource MuscleGroupToFrameColorConverter}}">
+                                    <!-- Muscle Groups Section -->
+                                    <CollectionView ItemsSource="{Binding MuscleGroups}"
+                                                    SelectionMode="None">
+                                        <CollectionView.ItemTemplate>
+                                            <DataTemplate>
+                                                <Frame CornerRadius="10"
+                                                       BorderColor="#fefefe"
+                                                       BackgroundColor="#3b3b3d"
+                                                       Padding="10"
+                                                       Margin="5"
+                                                       HasShadow="False">
+                                                    <VerticalStackLayout Spacing="10">
+                                                        <!-- Muscle Group Picker -->
+                                                        <Frame 
+                                                            CornerRadius="10"
+                                                            BorderColor="#3b3b3d"
+                                                            Padding="3" 
+                                                            HasShadow="False"
+                                                            HorizontalOptions="FillAndExpand"
+                                                            BackgroundColor="{Binding SelectedMuscleGroup, Converter={StaticResource MuscleGroupToFrameColorConverter}}">
 
                                                             <Picker 
-                                                            Title="Select Muscle Group"
-                                                            ItemsSource="{Binding MuscleGroupsList}"
-                                                            SelectedItem="{Binding SelectedMuscleGroup}"
-                                                            HorizontalOptions="FillAndExpand"
-                                                            BackgroundColor="{Binding SelectedMuscleGroup, Converter={StaticResource MuscleGroupToPickerColorConverter}}"
-                                                            Margin="0"
-                                                            />
-                                                    </Frame>
-
-                                                    <!-- Exercise Picker -->
-                                                    <Label Text="Select Exercise"
-                                                           FontSize="16"
-                                                           TextColor="White" />
-                                                    <Frame CornerRadius="10"
-                                                           BorderColor="#d51f21"
-                                                           BackgroundColor="#3b3b3d"
-                                                           Padding="0"
-                                                           HasShadow="False">
-                                                        <Picker Title="Select Exercise"
-                                                                ItemsSource="{Binding Exercises}"
-                                                                SelectedItem="{Binding SelectedExercise}"
+                                                                Title="Select Muscle Group"
+                                                                ItemsSource="{Binding MuscleGroupsList}"
+                                                                SelectedItem="{Binding SelectedMuscleGroup}"
                                                                 HorizontalOptions="FillAndExpand"
-                                                                BackgroundColor="Transparent" />
-                                                    </Frame>
-                                                </VerticalStackLayout>
-                                            </Frame>
-                                        </DataTemplate>
-                                    </CollectionView.ItemTemplate>
-                                </CollectionView>
+                                                                BackgroundColor="{Binding SelectedMuscleGroup, Converter={StaticResource MuscleGroupToPickerColorConverter}}"
+                                                                Margin="0" />
+                                                        </Frame>
 
-                                <!-- Add Muscle Group Button at Bottom -->
-                                <Grid VerticalOptions="EndAndExpand">
-                                    <Grid.GestureRecognizers>
-                                        <TapGestureRecognizer Command="{Binding AddMuscleGroupCommand}" />
-                                    </Grid.GestureRecognizers>
-                                    <StackLayout Orientation="Horizontal"
-                                                 HorizontalOptions="Start">
-                                        <Image Source="plus.png"
-                                               WidthRequest="20"
-                                               HeightRequest="20"
-                                               VerticalOptions="Center" />
-                                        <Label Text="Add a Muscle Group"
-                                               VerticalOptions="Center"
-                                               TextColor="Red"
-                                               Margin="5,0,0,0" />
-                                    </StackLayout>
-                                </Grid>
-                            </VerticalStackLayout>
-                        </Frame>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
+                                                        <!-- Exercise Picker -->
+                                                      
+                                                        <Frame CornerRadius="10"
+                                                               BorderColor="#3b3b3d"
+                                                               BackgroundColor="#3b3b3d"
+                                                               Padding="0"
+                                                               HasShadow="False">
+                                                            <Picker Title="Select Exercise"
+                                                                    ItemsSource="{Binding Exercises}"
+                                                                    SelectedItem="{Binding SelectedExercise}"
+                                                                    ItemDisplayBinding="{Binding ExerciseName}"
+                                                                    HorizontalOptions="FillAndExpand"
+                                                                    BackgroundColor="Transparent" />
+                                                        </Frame>
+                                                    </VerticalStackLayout>
+                                                </Frame>
+                                            </DataTemplate>
+                                        </CollectionView.ItemTemplate>
+                                    </CollectionView>
 
-            <!-- Continue Button -->
-            <Button Text="Continue"
-                    Command="{Binding ContinueCommand}"
-                    Style="{StaticResource PrimaryButton}"
-                    FontAttributes="Bold"
-                    HeightRequest="60"
-                    BackgroundColor="#d51f21"
-                    TextColor="White"
-                    HorizontalOptions="Center"
-                    WidthRequest="250" />
-        </VerticalStackLayout>
-    </ScrollView>
+                                    <!-- Add Muscle Group Button at Bottom -->
+                                    <Grid VerticalOptions="EndAndExpand">
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding AddMuscleGroupCommand}" />
+                                        </Grid.GestureRecognizers>
+                                        <StackLayout Orientation="Horizontal"
+                                                     HorizontalOptions="Start">
+                                            <Image Source="plus.png"
+                                                   WidthRequest="20"
+                                                   HeightRequest="20"
+                                                   VerticalOptions="Center" />
+                                            <Label Text="Add a Muscle Group"
+                                                   VerticalOptions="Center"
+                                                   TextColor="Red"
+                                                   Margin="5,0,0,0" />
+                                        </StackLayout>
+                                    </Grid>
+                                </VerticalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <!-- Add Day Button -->
+                <Button Text="Add Day"
+                        Command="{Binding AddDayCommand}"
+                        IsVisible="{Binding CanAddMoreDays}"
+                        Style="{StaticResource PrimaryButton}"
+                        FontAttributes="Bold"
+                        HeightRequest="60"
+                        BackgroundColor="#d51f21"
+                        TextColor="White"
+                        HorizontalOptions="Center"
+                        WidthRequest="250" />
+
+                <!-- Continue Button -->
+                <Button Text="Continue"
+                        Command="{Binding ContinueCommand}"
+                        Style="{StaticResource PrimaryButton}"
+                        FontAttributes="Bold"
+                        HeightRequest="60"
+                        BackgroundColor="#d51f21"
+                        TextColor="White"
+                        HorizontalOptions="Center"
+                        WidthRequest="250" />
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- POPUP OVERLAY -->
+        <Grid IsVisible="{Binding IsCustomExerciseVisible}"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="FillAndExpand"
+              BackgroundColor="#80000000">
+            <!-- polprosojna črna podlaga -->
+
+            <Frame BackgroundColor="#3b3b3d"
+                   Padding="20"
+                   CornerRadius="10"
+                   WidthRequest="300"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+
+                <VerticalStackLayout Spacing="15">
+                    <Label Text="Create Custom Exercise"
+                           FontAttributes="Bold"
+                           FontSize="18"
+                           HorizontalOptions="Center" />
+
+                    <Entry Placeholder="Name"
+                           Text="{Binding NewExercise.ExerciseName}"
+                           Keyboard="Text" />
+
+                    <Label Text="Exercise Type"
+                       FontAttributes="Bold" />
+                       <Picker ItemsSource="{Binding ExerciseTypesList}"
+                       SelectedItem="{Binding NewExercise.Equipment}"
+                       Title="Select Exercise Type" />     
+
+
+                    <Entry Placeholder="YouTube Video ID"
+                           Text="{Binding NewExercise.YouTubeVideoId}"
+                           Keyboard="Url" />
+
+                    <!-- Muscle Group Selection -->
+                    <Label Text="Muscle Group"
+                           FontAttributes="Bold" />
+                    <Picker ItemsSource="{Binding MuscleGroupsList}"
+                            SelectedItem="{Binding NewExercise.MuscleGroup}"
+                            Title="Select Muscle Group" />
+
+                    <HorizontalStackLayout Spacing="20">
+                        <Button Text="Cancel"
+                                Command="{Binding CancelCustomExerciseCommand}"
+                                BackgroundColor="#d51f21"
+                                TextColor="White"
+                                WidthRequest="100" />
+                        <Button Text="Save"
+                                Command="{Binding SaveCustomExerciseCommand}"
+                                BackgroundColor="#3b3b3d"
+                                TextColor="White"
+                                WidthRequest="100" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+        </Grid>
+    </Grid>
 </ContentPage>

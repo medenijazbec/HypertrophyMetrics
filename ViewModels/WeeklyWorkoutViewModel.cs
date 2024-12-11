@@ -75,7 +75,7 @@ namespace HypertrophyApp.ViewModels
                             MuscleGroup = "Glutes",
                             ExerciseName = "Deadlift",
                             Equipment = "Barbell",
-                            Instructions = "Perform deadlifts with proper form.",
+                            YouTubeVideoId = "Perform deadlifts with proper form.",
                             Sets = new ObservableCollection<ExerciseSet>
                             {
                                 new ExerciseSet { Weight = "100", Reps = "5", RIR = "2" },
@@ -88,7 +88,7 @@ namespace HypertrophyApp.ViewModels
                             MuscleGroup = "Hamstrings",
                             ExerciseName = "Romanian Deadlift",
                             Equipment = "Barbell",
-                            Instructions = "Keep your back straight and lower the bar.",
+                            YouTubeVideoId = "Keep your back straight and lower the bar.",
                             Sets = new ObservableCollection<ExerciseSet>
                             {
                                 new ExerciseSet { Weight = "80", Reps = "8", RIR = "1" },
@@ -101,7 +101,7 @@ namespace HypertrophyApp.ViewModels
                             MuscleGroup = "Calves",
                             ExerciseName = "Standing Calf Raise",
                             Equipment = "Calf Raise Machine",
-                            Instructions = "Raise your heels as high as possible.",
+                            YouTubeVideoId = "Raise your heels as high as possible.",
                             Sets = new ObservableCollection<ExerciseSet>
                             {
                                 new ExerciseSet { Weight = "50", Reps = "15", RIR = "0" },

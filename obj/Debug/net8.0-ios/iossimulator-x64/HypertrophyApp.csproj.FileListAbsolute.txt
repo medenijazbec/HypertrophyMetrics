@@ -326,3 +326,5 @@ C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\Hypertrop
 C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-ios\iossimulator-x64\HypertrophyApp.pdb
 C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-ios\iossimulator-x64\HypertrophyApp.genruntimeconfig.cache
 C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-ios\iossimulator-x64\ref\HypertrophyApp.dll
+C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\minus.png
+C:\Users\Matic\Desktop\FERI\3Letnik\RAZVOJ MOBILNIH RESITEV\RMRprojekt\HypertrophyApp\obj\Debug\net8.0-ios\iossimulator-x64\HypertrophyApp.sourcelink.json

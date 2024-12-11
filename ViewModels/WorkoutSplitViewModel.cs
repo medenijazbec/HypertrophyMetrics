@@ -44,7 +44,7 @@ namespace HypertrophyApp.ViewModels
                         "Core: Planks"
                     }
                 },
-                // Dodajte več dni po potrebi
+               
             };
 
             PlanNewMesocycleCommand = new Command(OnPlanNewMesocycle);
@@ -53,7 +53,7 @@ namespace HypertrophyApp.ViewModels
         private async void OnPlanNewMesocycle()
         {
             // Implement logic to plan a new mesocycle
-            // For demonstration, we'll display an alert
+           
             await Application.Current.MainPage.DisplayAlert("Info", "Planning a new mesocycle...", "OK");
 
             // Navigate to PlanMesocyclePage
