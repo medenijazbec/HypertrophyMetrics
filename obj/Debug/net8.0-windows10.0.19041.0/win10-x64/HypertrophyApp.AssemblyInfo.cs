@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HypertrophyApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+bee23cfb2748236b67b6d990793671b65cce6438")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+da3356b6fd21edce1bee885c274077efe28d7c36")]
 [assembly: System.Reflection.AssemblyProductAttribute("HypertrophyApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HypertrophyApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\createmesocyclepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\createmesocyclepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\planmesocyclepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\planmesocyclepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\viewmodels\\createmesocycleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:viewmodels\\createmesocycleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\createmesocyclepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\createmesocyclepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\weekplanpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\weekplanpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\workoutsplitpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\workoutsplitpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\scheduleoverviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\scheduleoverviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\planmesocyclepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\planmesocyclepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -35,14 +63,6 @@
       "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:viewmodels\\workoutsplitviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\createmesocyclepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\createmesocyclepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\planmesocyclepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\planmesocyclepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\models\\musclegroupselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:models\\musclegroupselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\converters\\booleantocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:converters\\booleantocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\createmesocyclepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\createmesocyclepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\viewmodels\\customexerciseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\models\\musclegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:models\\musclegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\planmesocyclepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\planmesocyclepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\converters\\musclegrouptoframecolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -163,10 +175,6 @@
       "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\weekplanpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\weekplanpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\weekplanpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\weekplanpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -181,10 +189,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\startdatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\startdatepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\scheduleoverviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\scheduleoverviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\phasepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -205,10 +209,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\workoutsplitpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\workoutsplitpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\workoutsplitpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|solutionrelative:pages\\workoutsplitpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42793214-A937-43C1-8B37-E3D65279F912}|HypertrophyApp.csproj|c:\\users\\matic\\desktop\\feri\\3letnik\\razvoj mobilnih resitev\\rmrprojekt\\hypertrophyapp\\pages\\weighintimespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -298,128 +298,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 61,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T16:59:24.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:41:07.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T16:08:30.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-04T15:49:54.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "CreateMesocycleViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\CreateMesocycleViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\CreateMesocycleViewModel.cs",
               "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\CreateMesocycleViewModel.cs",
               "RelativeToolTip": "ViewModels\\CreateMesocycleViewModel.cs",
-              "ViewState": "AQIAAPsAAAAAAAAAAAAuwAgBAAAhAAAA",
+              "ViewState": "AQIAAPsAAAAAAAAAAAA8wAsBAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T16:52:46.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAswHIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:05:33.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:05:20.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WorkoutSplitViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\WorkoutSplitViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\WorkoutSplitViewModel.cs",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\WorkoutSplitViewModel.cs",
-              "RelativeToolTip": "ViewModels\\WorkoutSplitViewModel.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAowDcAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:55:02.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateMesocyclePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\CreateMesocyclePage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\CreateMesocyclePage.xaml.cs",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\CreateMesocyclePage.xaml.cs",
-              "RelativeToolTip": "Pages\\CreateMesocyclePage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T16:54:54.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "PlanMesocyclePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\PlanMesocyclePage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\PlanMesocyclePage.xaml.cs",
@@ -432,7 +328,170 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateMesocyclePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\CreateMesocyclePage.xaml",
+              "RelativeDocumentMoniker": "Pages\\CreateMesocyclePage.xaml",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\CreateMesocyclePage.xaml",
+              "RelativeToolTip": "Pages\\CreateMesocyclePage.xaml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAANUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T16:53:10.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateMesocyclePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\CreateMesocyclePage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\CreateMesocyclePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\CreateMesocyclePage.xaml.cs",
+              "RelativeToolTip": "Pages\\CreateMesocyclePage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:54:54.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeekPlanPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\WeekPlanPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\WeekPlanPage.xaml",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\WeekPlanPage.xaml",
+              "RelativeToolTip": "Pages\\WeekPlanPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T15:34:09.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorkoutSplitPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\WorkoutSplitPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\WorkoutSplitPage.xaml",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\WorkoutSplitPage.xaml",
+              "RelativeToolTip": "Pages\\WorkoutSplitPage.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAlwBkAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T15:30:26.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScheduleOverviewPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\ScheduleOverviewPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ScheduleOverviewPage.xaml",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\ScheduleOverviewPage.xaml",
+              "RelativeToolTip": "Pages\\ScheduleOverviewPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T15:33:41.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlanMesocyclePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\PlanMesocyclePage.xaml",
+              "RelativeDocumentMoniker": "Pages\\PlanMesocyclePage.xaml",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\PlanMesocyclePage.xaml",
+              "RelativeToolTip": "Pages\\PlanMesocyclePage.xaml",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAJYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T15:26:12.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T15:49:54.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T16:08:30.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:41:07.493Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:59:24.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:05:33.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:05:20.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WorkoutSplitViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\WorkoutSplitViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\WorkoutSplitViewModel.cs",
+              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\WorkoutSplitViewModel.cs",
+              "RelativeToolTip": "ViewModels\\WorkoutSplitViewModel.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAowDcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:55:02.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "MuscleGroupSelection.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Models\\MuscleGroupSelection.cs",
               "RelativeDocumentMoniker": "Models\\MuscleGroupSelection.cs",
@@ -440,12 +499,11 @@
               "RelativeToolTip": "Models\\MuscleGroupSelection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T16:50:15.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T16:50:15.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ExerciseSet.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Models\\ExerciseSet.cs",
               "RelativeDocumentMoniker": "Models\\ExerciseSet.cs",
@@ -453,12 +511,11 @@
               "RelativeToolTip": "Models\\ExerciseSet.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAYwC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T21:54:25.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T21:54:25.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "BooleanToColorConverter.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Converters\\BooleanToColorConverter.cs",
               "RelativeDocumentMoniker": "Converters\\BooleanToColorConverter.cs",
@@ -466,25 +523,11 @@
               "RelativeToolTip": "Converters\\BooleanToColorConverter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T16:11:09.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T16:11:09.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CreateMesocyclePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\CreateMesocyclePage.xaml",
-              "RelativeDocumentMoniker": "Pages\\CreateMesocyclePage.xaml",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\CreateMesocyclePage.xaml",
-              "RelativeToolTip": "Pages\\CreateMesocyclePage.xaml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAnwFsAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-04T16:53:10.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "CustomExerciseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\CustomExerciseViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\CustomExerciseViewModel.cs",
@@ -492,12 +535,11 @@
               "RelativeToolTip": "ViewModels\\CustomExerciseViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:43:22.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T16:43:22.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "MuscleGroupViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\MuscleGroupViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MuscleGroupViewModel.cs",
@@ -505,12 +547,11 @@
               "RelativeToolTip": "ViewModels\\MuscleGroupViewModel.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAuwFUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:58:58.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T17:58:58.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "WeeklyWorkoutViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\WeeklyWorkoutViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\WeeklyWorkoutViewModel.cs",
@@ -518,12 +559,11 @@
               "RelativeToolTip": "ViewModels\\WeeklyWorkoutViewModel.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAEwG4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T21:42:22.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T21:42:22.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Day.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Models\\Day.cs",
               "RelativeDocumentMoniker": "Models\\Day.cs",
@@ -531,12 +571,11 @@
               "RelativeToolTip": "Models\\Day.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T16:50:02.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T16:50:02.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Exercise.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Models\\Exercise.cs",
               "RelativeDocumentMoniker": "Models\\Exercise.cs",
@@ -544,12 +583,11 @@
               "RelativeToolTip": "Models\\Exercise.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAkwEkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T21:54:18.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T21:54:18.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "DayViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\DayViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\DayViewModel.cs",
@@ -557,12 +595,11 @@
               "RelativeToolTip": "ViewModels\\DayViewModel.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAuwDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:58:24.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T17:58:24.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "MuscleGroup.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Models\\MuscleGroup.cs",
               "RelativeDocumentMoniker": "Models\\MuscleGroup.cs",
@@ -570,25 +607,11 @@
               "RelativeToolTip": "Models\\MuscleGroup.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T16:49:03.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T16:49:03.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PlanMesocyclePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\PlanMesocyclePage.xaml",
-              "RelativeDocumentMoniker": "Pages\\PlanMesocyclePage.xaml",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\PlanMesocyclePage.xaml",
-              "RelativeToolTip": "Pages\\PlanMesocyclePage.xaml",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAAAEEAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T15:26:12.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "MuscleGroupToFrameColorConverter.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Converters\\MuscleGroupToFrameColorConverter.cs",
               "RelativeDocumentMoniker": "Converters\\MuscleGroupToFrameColorConverter.cs",
@@ -600,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "MuscleGroupToPickerColorConverter.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Converters\\MuscleGroupToPickerColorConverter.cs",
               "RelativeDocumentMoniker": "Converters\\MuscleGroupToPickerColorConverter.cs",
@@ -612,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "MuscleGroupStatsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\MuscleGroupStatsViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MuscleGroupStatsViewModel.cs",
@@ -624,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "PlanMesocycleViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\PlanMesocycleViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\PlanMesocycleViewModel.cs",
@@ -636,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
@@ -648,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "MuscleGroupConverter.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Converters\\MuscleGroupConverter.cs",
               "RelativeDocumentMoniker": "Converters\\MuscleGroupConverter.cs",
@@ -660,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "DaySelectionConverter.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Converters\\DaySelectionConverter.cs",
               "RelativeDocumentMoniker": "Converters\\DaySelectionConverter.cs",
@@ -672,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "SelectedButtonBackgroundConverter.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Converters\\SelectedButtonBackgroundConverter.cs",
               "RelativeDocumentMoniker": "Converters\\SelectedButtonBackgroundConverter.cs",
@@ -684,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "SelectedButtonStrokeColorConverter.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Converters\\SelectedButtonStrokeColorConverter.cs",
               "RelativeDocumentMoniker": "Converters\\SelectedButtonStrokeColorConverter.cs",
@@ -696,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "SelectedButtonTextColorConverter.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Converters\\SelectedButtonTextColorConverter.cs",
               "RelativeDocumentMoniker": "Converters\\SelectedButtonTextColorConverter.cs",
@@ -708,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "WeighInTimesViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\WeighInTimesViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\WeighInTimesViewModel.cs",
@@ -720,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "FeedbackPage.xaml",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\FeedbackPage.xaml",
               "RelativeDocumentMoniker": "Pages\\FeedbackPage.xaml",
@@ -732,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "FeedbackViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\ViewModels\\FeedbackViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\FeedbackViewModel.cs",
@@ -744,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "FeedbackPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\FeedbackPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\FeedbackPage.xaml.cs",
@@ -756,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "GainingMusclePage.xaml",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\GainingMusclePage.xaml",
               "RelativeDocumentMoniker": "Pages\\GainingMusclePage.xaml",
@@ -768,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Platforms\\Android\\MainActivity.cs",
               "RelativeDocumentMoniker": "Platforms\\Android\\MainActivity.cs",
@@ -780,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "MainApplication.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Platforms\\Android\\MainApplication.cs",
               "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
@@ -792,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "GainingMusclePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\GainingMusclePage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\GainingMusclePage.xaml.cs",
@@ -804,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "colors.xml",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Platforms\\Android\\Resources\\values\\colors.xml",
               "RelativeDocumentMoniker": "Platforms\\Android\\Resources\\values\\colors.xml",
@@ -816,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "WeekPlanPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\WeekPlanPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\WeekPlanPage.xaml.cs",
@@ -828,19 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "WeekPlanPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\WeekPlanPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\WeekPlanPage.xaml",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\WeekPlanPage.xaml",
-              "RelativeToolTip": "Pages\\WeekPlanPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T15:34:09.65Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "WeighInTimesPage.xaml",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\WeighInTimesPage.xaml",
               "RelativeDocumentMoniker": "Pages\\WeighInTimesPage.xaml",
@@ -852,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "StartDatePage.xaml",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\StartDatePage.xaml",
               "RelativeDocumentMoniker": "Pages\\StartDatePage.xaml",
@@ -864,19 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ScheduleOverviewPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\ScheduleOverviewPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\ScheduleOverviewPage.xaml",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\ScheduleOverviewPage.xaml",
-              "RelativeToolTip": "Pages\\ScheduleOverviewPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T15:33:41.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "PhasePage.xaml",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\PhasePage.xaml",
               "RelativeDocumentMoniker": "Pages\\PhasePage.xaml",
@@ -888,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "PhaseTrackingPage.xaml",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\PhaseTrackingPage.xaml",
               "RelativeDocumentMoniker": "Pages\\PhaseTrackingPage.xaml",
@@ -900,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "MuscleGroupStatsPage.xaml",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\MuscleGroupStatsPage.xaml",
               "RelativeDocumentMoniker": "Pages\\MuscleGroupStatsPage.xaml",
@@ -912,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "ExerciseLoggingPage.xaml",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\ExerciseLoggingPage.xaml",
               "RelativeDocumentMoniker": "Pages\\ExerciseLoggingPage.xaml",
@@ -924,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "WorkoutSplitPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\WorkoutSplitPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\WorkoutSplitPage.xaml.cs",
@@ -933,18 +932,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T16:54:33.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "WorkoutSplitPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\WorkoutSplitPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\WorkoutSplitPage.xaml",
-              "ToolTip": "C:\\Users\\Matic\\Desktop\\FERI\\3Letnik\\RAZVOJ MOBILNIH RESITEV\\RMRprojekt\\HypertrophyApp\\Pages\\WorkoutSplitPage.xaml",
-              "RelativeToolTip": "Pages\\WorkoutSplitPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T15:30:26.123Z"
             },
             {
               "$type": "Document",

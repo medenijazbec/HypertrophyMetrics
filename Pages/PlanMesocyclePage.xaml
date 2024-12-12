@@ -136,7 +136,7 @@
                         SelectedItem="{Binding SelectedStartDay}" 
                         HorizontalOptions="Center"
                         WidthRequest="250"
-                        BackgroundColor="#FFFFFF" />
+                        BackgroundColor="#3b3b3d" />
 
                 <!-- Preset Picker -->
                 <Label Text="Preset" 
@@ -148,7 +148,7 @@
                         SelectedItem="{Binding SelectedPreset}" 
                         HorizontalOptions="Center"
                         WidthRequest="250"
-                        BackgroundColor="#FFFFFF" />
+                        BackgroundColor="#3b3b3d" />
             </VerticalStackLayout>
 
             <!-- Continue Button -->

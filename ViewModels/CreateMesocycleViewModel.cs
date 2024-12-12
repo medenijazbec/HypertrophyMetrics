@@ -265,7 +265,7 @@ namespace HypertrophyApp.ViewModels
         private void OnContinue()
         {
             // Logic to proceed to the next step
-            // For example, navigate to another page or save the data
+      
         }
 
         #region INotifyPropertyChanged Implementation

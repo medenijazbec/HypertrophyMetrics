@@ -16,7 +16,7 @@
             <CollectionView ItemsSource="{Binding DailyPlans}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame BorderColor="Gray" Padding="10">
+                        <Frame BorderColor="Gray" Padding="10" BackgroundColor="#3b3b3d">
                             <VerticalStackLayout>
                                 <Label Text="{Binding Day}" FontSize="18" />
                                 <Label Text="{Binding Exercises}" FontSize="14" />

@@ -16,7 +16,7 @@
             <CollectionView ItemsSource="{Binding WeeklySchedules}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame BorderColor="Gray" Padding="10" Margin="5">
+                        <Frame BorderColor="#3b3b3d" Padding="10" Margin="5" BackgroundColor="#3b3b3d">
                             <VerticalStackLayout>
                                 <Label Text="{Binding Week}" FontSize="18" FontAttributes="Bold" />
                                 <Label Text="{Binding Exercises}" FontSize="14" />
